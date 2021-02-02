@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,19 @@
 		0A8738F925C96BD90038F2FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8738F825C96BD90038F2FE /* Preview Assets.xcassets */; };
 		0A87390425C96BD90038F2FE /* RemindersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87390325C96BD90038F2FE /* RemindersTests.swift */; };
 		0A87390F25C96BD90038F2FE /* RemindersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87390E25C96BD90038F2FE /* RemindersUITests.swift */; };
+		0A87392B25C96CAE0038F2FE /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87392A25C96CAE0038F2FE /* Reminder.swift */; };
+		0A87393125C96DA40038F2FE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0A87393025C96DA40038F2FE /* RealmSwift */; };
+		0A87393325C96DA40038F2FE /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 0A87393225C96DA40038F2FE /* Realm */; };
+		0A87393825C96DEF0038F2FE /* ReminderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87393725C96DEF0038F2FE /* ReminderList.swift */; };
+		0A87393D25C96EAB0038F2FE /* FocusableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87393C25C96EAB0038F2FE /* FocusableTextField.swift */; };
+		0A87394225C96EF10038F2FE /* ReminderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87394125C96EF10038F2FE /* ReminderRowView.swift */; };
+		0A87394725C96F090038F2FE /* ReminderFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87394625C96F090038F2FE /* ReminderFormView.swift */; };
+		0A87394C25C96F510038F2FE /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87394B25C96F510038F2FE /* ReminderListView.swift */; };
+		0A87395925C96F920038F2FE /* ReminderListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87395825C96F920038F2FE /* ReminderListRowView.swift */; };
+		0A87395E25C96FBC0038F2FE /* ReminderListResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87395D25C96FBC0038F2FE /* ReminderListResultsView.swift */; };
+		0A87396425C970090038F2FE /* +Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87396325C970090038F2FE /* +Color.swift */; };
+		0A87396925C970350038F2FE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87396825C970350038F2FE /* SearchView.swift */; };
+		0A87396E25C970630038F2FE /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A87396D25C970630038F2FE /* Footer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,17 @@
 		0A87390A25C96BD90038F2FE /* RemindersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A87390E25C96BD90038F2FE /* RemindersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersUITests.swift; sourceTree = "<group>"; };
 		0A87391025C96BD90038F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A87392A25C96CAE0038F2FE /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = SOURCE_ROOT; };
+		0A87393725C96DEF0038F2FE /* ReminderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderList.swift; sourceTree = "<group>"; };
+		0A87393C25C96EAB0038F2FE /* FocusableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusableTextField.swift; sourceTree = "<group>"; };
+		0A87394125C96EF10038F2FE /* ReminderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRowView.swift; sourceTree = "<group>"; };
+		0A87394625C96F090038F2FE /* ReminderFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderFormView.swift; sourceTree = "<group>"; };
+		0A87394B25C96F510038F2FE /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		0A87395825C96F920038F2FE /* ReminderListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListRowView.swift; sourceTree = "<group>"; };
+		0A87395D25C96FBC0038F2FE /* ReminderListResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListResultsView.swift; sourceTree = "<group>"; };
+		0A87396325C970090038F2FE /* +Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+Color.swift"; sourceTree = "<group>"; };
+		0A87396825C970350038F2FE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		0A87396D25C970630038F2FE /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A87393325C96DA40038F2FE /* Realm in Frameworks */,
+				0A87393125C96DA40038F2FE /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +101,7 @@
 		0A8738E525C96BD70038F2FE = {
 			isa = PBXGroup;
 			children = (
+				0A8738F125C96BD70038F2FE /* RemindersApp.swift */,
 				0A8738F025C96BD70038F2FE /* Reminders */,
 				0A87390225C96BD90038F2FE /* RemindersTests */,
 				0A87390D25C96BD90038F2FE /* RemindersUITests */,
@@ -95,8 +122,9 @@
 		0A8738F025C96BD70038F2FE /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
-				0A8738F125C96BD70038F2FE /* RemindersApp.swift */,
-				0A8738F325C96BD70038F2FE /* ContentView.swift */,
+				0A87392325C96C660038F2FE /* Views */,
+				0A87392225C96C600038F2FE /* Model */,
+				0A87396225C96FEF0038F2FE /* Extensions */,
 				0A8738F525C96BD90038F2FE /* Assets.xcassets */,
 				0A8738FA25C96BD90038F2FE /* Info.plist */,
 				0A8738F725C96BD90038F2FE /* Preview Content */,
@@ -130,6 +158,39 @@
 			path = RemindersUITests;
 			sourceTree = "<group>";
 		};
+		0A87392225C96C600038F2FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A87392A25C96CAE0038F2FE /* Reminder.swift */,
+				0A87393725C96DEF0038F2FE /* ReminderList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A87392325C96C660038F2FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A8738F325C96BD70038F2FE /* ContentView.swift */,
+				0A87393C25C96EAB0038F2FE /* FocusableTextField.swift */,
+				0A87394125C96EF10038F2FE /* ReminderRowView.swift */,
+				0A87394625C96F090038F2FE /* ReminderFormView.swift */,
+				0A87394B25C96F510038F2FE /* ReminderListView.swift */,
+				0A87395825C96F920038F2FE /* ReminderListRowView.swift */,
+				0A87395D25C96FBC0038F2FE /* ReminderListResultsView.swift */,
+				0A87396825C970350038F2FE /* SearchView.swift */,
+				0A87396D25C970630038F2FE /* Footer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A87396225C96FEF0038F2FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A87396325C970090038F2FE /* +Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +207,10 @@
 			dependencies = (
 			);
 			name = Reminders;
+			packageProductDependencies = (
+				0A87393025C96DA40038F2FE /* RealmSwift */,
+				0A87393225C96DA40038F2FE /* Realm */,
+			);
 			productName = Reminders;
 			productReference = 0A8738EE25C96BD70038F2FE /* Reminders.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +282,9 @@
 				Base,
 			);
 			mainGroup = 0A8738E525C96BD70038F2FE;
+			packageReferences = (
+				0A87392F25C96DA40038F2FE /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 0A8738EF25C96BD70038F2FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +327,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A87394725C96F090038F2FE /* ReminderFormView.swift in Sources */,
+				0A87396425C970090038F2FE /* +Color.swift in Sources */,
+				0A87392B25C96CAE0038F2FE /* Reminder.swift in Sources */,
+				0A87396E25C970630038F2FE /* Footer.swift in Sources */,
+				0A87394225C96EF10038F2FE /* ReminderRowView.swift in Sources */,
+				0A87396925C970350038F2FE /* SearchView.swift in Sources */,
+				0A87395E25C96FBC0038F2FE /* ReminderListResultsView.swift in Sources */,
 				0A8738F425C96BD70038F2FE /* ContentView.swift in Sources */,
 				0A8738F225C96BD70038F2FE /* RemindersApp.swift in Sources */,
+				0A87393825C96DEF0038F2FE /* ReminderList.swift in Sources */,
+				0A87395925C96F920038F2FE /* ReminderListRowView.swift in Sources */,
+				0A87394C25C96F510038F2FE /* ReminderListView.swift in Sources */,
+				0A87393D25C96EAB0038F2FE /* FocusableTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +659,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A87392F25C96DA40038F2FE /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				branch = "jf/swiftui-realm-state";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A87393025C96DA40038F2FE /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A87392F25C96DA40038F2FE /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		0A87393225C96DA40038F2FE /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A87392F25C96DA40038F2FE /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0A8738E625C96BD70038F2FE /* Project object */;
 }
